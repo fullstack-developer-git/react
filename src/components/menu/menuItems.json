@@ -1,0 +1,28 @@
+[
+  {
+    "name":"Home",
+    "redirectPath":"home"
+  },
+  {
+    "name":"About Us",
+    "redirectPath":"about"
+  },
+  {
+    "name":"Contact Us",
+    "redirectPath":"contact"
+  },
+  {
+    "name":"Services",
+    "redirectPath":"service",
+    "childrens":[
+      {
+        "name":"Service 1",
+        "redirectPath":"service_1"
+      },  
+      {
+        "name":"Service 2",
+        "redirectPath":"service_2"
+      }
+    ]
+  }
+]
